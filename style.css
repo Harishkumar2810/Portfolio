@@ -1,0 +1,222 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: LawnGreen, sans-serif;
+    line-height: 1.6;
+    background: #C0C0C0  ;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 40px;
+    color: #DCDCDC ;
+}
+
+.btn {
+    background: #000000;
+    color:#DCDCDC;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+     display: inline-block;
+    background-color: black;
+    color: #00FFFF;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #00FFFF;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.circle-image {
+  width: 160px;        /* Set the desired width */
+  height: 200px;       /* Set the same value for height to make it square */
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;   /* Ensures the image fits within the circle */
+}
+
+img {
+  display: block; /* Ensures the image is treated as a block-level element */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#about{
+    font-size: 20px;
+    text-align: center;
+    background: #333;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 100px 125px;
+    border-radius: 15px;
+    margin: 100px 80px;
+}
+
+#contact {
+    color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+     padding-top: 30px;     /* Top padding */
+padding-right: 15px;   /* Right padding */
+padding-bottom: 10px;  /* Bottom padding */
+padding-left: 5px; 
+}
+
+.mail-text:hover{
+    color: white;
+}
+
+#projects{
+    background: #333;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 40px 100px;
+    border-radius: 15px;
+    margin: 30px 40px;
+}
+#projects .project-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;     /* Top padding */
+padding-right: 15px;   /* Right padding */
+padding-bottom: 10px;  /* Bottom padding */
+padding-left: 5px; 
+}
+/* Add this CSS to your existing stylesheet */
+.hackerrank-logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-top: 15px; /* Add spacing if needed */
+    display: block; /* Ensure it displays as a block element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.github-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black; /* GitHub brand color */
+    color: #00FFFF;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+
+.card {
+    background: #FFD700;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px;
+
+}
+
+#skills{
+    background: #333;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 40px 100px;
+    border-radius: 15px;
+    margin: 30px 40px;
+}
+
+#skills .skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#skills .skills-list li {
+    margin: 10px;
+    background: #FFD700;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.mail-link {
+    color: #FFFFFF ; /* Set email text color to white */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Optional: Make the email bold */
+}
+
+.mail-link:hover {
+    color: #3498db; /* Change color on hover for interactivity */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+}
